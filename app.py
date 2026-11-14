@@ -960,7 +960,7 @@ with tab_svd:
         c1, c2, c3 = st.columns([2, 1, 1])
         with c1:
             svd_disc = st.slider(
-                "🔭 Discovery boost (down-weight blockbusters)",
+                "🔭 Discovery boost (more popular or less popular?)",
                 0.0, 1.0, 0.3, 0.05, key="svd_disc",
                 help="0 = pure predicted rating. Higher values push popular, "
                      "heavily-rated movies down so lesser-known films can surface.",
