@@ -6,3 +6,4 @@ tensorflow
 jupyter
 seaborn
 ipykernel
+scikit-surprise
